@@ -2,6 +2,7 @@
    margin: 0px;
    font-family: 'Open Sans', sans-serif;
 }
+
 section{
    margin-top: 130px;
 }
@@ -107,156 +108,247 @@ main{
    max-width: 1040px;
    margin: 0 auto;
 }
-/* about Me style now */
-.about-me{
+
+
+
+
+/* My failures of previous year */
+
+.failues-previous{
+	display:flex;
+	gap:10px
+}
+.failues-first-box{
+	
+	background:#ffeaea;
+	border-radius:50%;
+	width:400px;
+	margin-left:10px;
+
+	height:390px
+
+
+}
+.failues-first-box img{
+	margin-left:-110px;
+	margin-bottom:-5px;
+	height:1000p
+	
+}
+.failues-secone-box{
+	margin-left:50px;
+
+}
+.failues-secone-box-title{
+	
+	margin-top:50px;
+	width:300px;
+	font-size:40px;
+	font-weight: 800;
+	margin-bottom:10px
+}
+.failues-secone-box-description{
+	margin-bottom:10px;
+	width:400px;
+	text-align: justify;
+   color:#655a5a
+	
+}
+.failues-secone-box-description i{
+	color:lightgreen
+	margin-right:10px;
+	
+}
+
+
    
-   background:#fff8f3;
-   border-radius: 10px;
-   padding: 130px 150px;
-   text-align: center;
 
-}
-.about-title{
 
-   margin-bottom:40px;
-   font-weight: 800;
-   font-size: 35px;
+
+
+
+#whychoosUs{
+	background:url(../images/bac.png);
+	width:100%;
+	display:block;
+   background-size: 100%;
 }
-.about-description{
-   text-align: center;
-   color:#757575
+.maneiconWrapper{
+	overflow:hidden;
+   width: 1040px;
+   margin: auto;
+	
 }
-.about-info-contner{
+
+.iconWrapper{
    display: flex;
-   justify-content: space-around;
-   margin-top: 50px;
-}
-.about-info{
-
-}
-.about-info p{
-   font-size: 20px;
-   color: #757575;
-   margin-bottom: 10px;
-
-}
-.about-info h5{
-   font-weight: 700;
-   font-size: 20;
 }
 
-/* My skill in programing style */
+.singleIconbox{
+	width:400px;
+	cursor:pointer;
+	margin-top:50px;
+	margin-bottom:50px;
+   margin-left:10px;
+   text-align: center;
+	
 
-.my-skill-title{
-   font-weight: 700;
-   font-size: 35px;
-   text-align:center;
-   margin:30px 0px
+  
+   
 }
-.my-skill-description{
-   font-size: 20px;
-   color: #757575;
-   margin-bottom: 10px;
-   padding: 0 40px;
-   text-align:center
+.singleIconbox h1{
+	font-size:30px;
+	color:#c1b5b5;
+	font-weight:bold;
+	width:60px;
+	margin-top:1px;
+   margin: auto;
+}
 
+.singleIconbox p{
+	font-size:18px;
+	font-weight:900;
+	color:#c1b5b5;
+	margin-top:10px
 }
-/* my skill style section  */
-.skills-container{
-   display: flex;
-   gap: 24px;
-   margin-top: 40px;
+
+.Sicon{
+	font-size:35px;
+	color:#ffffff;
+	width:50px;
+   margin: auto;
    margin-bottom: 40px;
-   padding: 10px;
 }
 
-.skill-title{
-   font-size: 20px;
-   font-weight: 700;
-   margin-top: 30px;
-   margin-bottom: 25px;
+
+
+
+
+
+/* MY PLAN style */
+
+.my-plans-title{
+	text-align:center;
+	margin-bottom:20px;
+	font-size:45px;
+   font-weight: 800;
+	
 }
-.skill{
+.my-plans-singlebox-wrepar{
+	display:flex;
+	gap:70px;
+	margin-left:80px
+	 
+	
+}
+.my-plans-singlebox img{
+	
+	margin-left:30px
+}
+
+.my-plans-singlebox-title{
+
+	font-weight: 800px;
+	text-align:center
+}
+.my-plans-singlebox-description{
+	text-align:center
+   
+}
+
+
+
+
+/*  shedo section style */
+
+
+.bag-sheduo{
+   background-image: url('../images/bac.png'),url(../images/gradient2.png);
+   background-size: 100%,100%;
+	padding:20px;
+ opacity: 0.9;
+}
+.bag-sheduo h3{
+	color:white;
+	margin-top:50px;
+	margin-bottom:25px;
+}
+.bag-sheduo button{
+	width:130px;
+	padding:10px;
+	border:0px;
+	border-radius:5px;
+	margin-bottom:40px;
+   font-size:25px;
+   font-weight: 800;
+   color:#ff5200
+
+} 
+
+
+/* footer style */
+footer{
+	background:#270101;
+	color:white;
+   padding:50px 0;
+	margin-top:60px
+}
+.footer-section{
+
+	width:1140px;
+	display:flex;
+	margin:auto;
+	gap:50px;
+	padding:10px;
+   
+}
+.footer-first-title{
+	font-size:45px;
+	font-weight:900;
+	color:#fffff;
+	margin-bottom:20px;
+}
+	
+.foter-description{
+	font-size:15px;
+	color:#ffffffc7;
+	margin-bottom:40px
+}
+
+.footer-contac{
+	margin-bottom:20px
+	font-size:15px;
+	color:#ffffffc7;
+	margin-bottom:10px
+}
+.footer-btn-email{
+	margin-right:190px
+}
+.footer-seconde-title{
+	font-size:35px;
+	margin-bottom:20px;
+}
+.footer-section input{
+	height:30px;
+	width:300px;
+	background:none;
+	color:#fffffff;
+	margin-top:20px;
+	border:1px solid white;
+	margin-bottom: 30px;
+	padding:5px
+}
+.footer-section img{
+
+   margin-right:10px;
+	width:20px;
+	border-radius:50%;
    background: white;
-   box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
-   border-radius: 5px;
-   padding: 30px;
-   /* text-align: center; */
-   
-}
-.skill img{
-   margin-left:37%;
-   cursor:pointer
-}
-.skill-description{
-   color:#757575;
-   
-}
-/* A summary of My Resume Style */
-
-.resume-contener{
-   display: flex;
-   gap:20px;
-   padding: 10px;
-}
-.resume-title{
-   text-align: center;
-   margin-top: 40px;
-   margin-bottom: 40px;
-   font-size: 36px;
-}
-.education-itame{
-   border-bottom: 1px solid #757575;
-   margin-bottom: 20px;
-   padding-right: 20px;
-   
-}
-.my-education-title{
-   font-size:25px ;
-   font-weight: 700;
-   margin-top: 10px;
-   margin-bottom: 20px
-}
-.education-itame-title{
-   margin-bottom: 10px
-}
-.education-itame-subtitle{
-   color:#757575;
-   margin-bottom: 30px;
-}
-.education-itame-description{
-   margin-bottom: 40px;
-}
-.resume-button{
-   margin-bottom: 40px;
-   margin-top: 50px;
-   text-align: center;
+   padding: 5px;
+   cursor: pointer;
 }
 
 
-/* contact style */
-.contact{
-   display: flex;
-   gap: 100px;
-   background: #fff8f3;
-   padding: 130px 200px;
-}
-.contact .section-title{
-   text-align: left;
-}
-.contact input[type="text"], input[type="email"], textarea{
-   margin-bottom:24px;
-   border: 0;
-   width: 100%;
-   padding:18px  30px;
-}
-.contact a{
-   text-decoration: none;
-   margin-left: 20px;
-   font-weight: 800;
-   font-size: 40px;
-}
-.contact-description{
-   color: #757575;
-   margin: 30px 0;
-}
+
+
+
